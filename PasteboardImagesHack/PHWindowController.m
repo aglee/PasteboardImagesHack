@@ -8,6 +8,7 @@
 
 #import "PHWindowController.h"
 #import "PHError.h"
+#import "PHPrefs.h"
 #import "PHImageUtilities.h"
 
 @interface PHWindowController ()
@@ -68,11 +69,6 @@
 - (void)windowDidLoad
 {
 	// Set ivars.
-	self.shouldScaleImages = YES;
-	self.imageBoundingWidth = 160;
-	self.imageBoundingHeight = 120;
-	self.spreadsheetFillDirection = PHSpreadsheetFillColumn;
-
 	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
 	dateFormatter.formatterBehavior = NSDateFormatterBehavior10_4;
 	dateFormatter.dateFormat = @"yyyy-MM-dd hh:mm:ss aa";
@@ -109,7 +105,7 @@
 - (void)_processImagesGivenByArray:(NSArray *)sourceArray
 {
 	NSMutableAttributedString *stringWithAllImages = [NSMutableAttributedString new];
-	NSString *separator = (self.spreadsheetFillDirection == PHSpreadsheetFillRow ? @"\t" : @"\r");
+	NSString *separator = ([PHPrefs spreadsheetFillDirection] == PHSpreadsheetFillRow ? @"\t" : @"\r");
 	NSAttributedString *attributedSeparator = [[NSAttributedString alloc] initWithString:separator];
 	NSError *error;
 
@@ -221,9 +217,9 @@
 	}
 
 	// Maybe scale the image.
-	if (self.shouldScaleImages)
+	if ([PHPrefs shouldScaleImages])
 	{
-		NSSize boundingSize = NSMakeSize(self.imageBoundingWidth, self.imageBoundingHeight);
+		NSSize boundingSize = NSMakeSize([PHPrefs imageBoundingWidth], [PHPrefs imageBoundingHeight]);
 
 		image = [PHImageUtilities imageByScalingImage:image toFitSize:boundingSize];
 	}

@@ -2,15 +2,15 @@
 
 This utility converts multiple images into a form that you can paste into a Numbers spreadsheet, whereupon they will fill a row or column of cells.
 
-PasteboardImagesHack was inspired by a [tweet]( from Michael B. Johnson, aka @drwave.  I did it purely as a learning exercise and for fun, to see if it would work.  For all I know there's a simpler way to accomplish the same thing.
+PasteboardImagesHack was inspired by a [tweet](https://twitter.com/drwave/status/412995929977802752) from Michael B. Johnson, aka @drwave.  I did it purely as a learning exercise and for fun, to see if it would work.  For all I know there's a simpler way to accomplish the same thing.
 
 
 ## Input
 
 There are two ways to provide the input images:
 
-* Drag and drop.  Drag image files onto the application window or the application icon.
-* The clipboard.  Copy images (or image files) into the clipboard and either press the "Use Images on Clipboard" button or use the corresponding menu item.
+* **Drag and drop.**  Drag image files onto the application window or the application icon.
+* **The clipboard.**  Copy images (or image files) into the clipboard and either press the "Use Images on Clipboard" button or use the corresponding menu item.
 
 
 ## Output
@@ -26,7 +26,6 @@ Pasting into Excel doesn't have the same effect.  I don't know why.
 
 I don't have any immediate plans for enhancements.  Here are some that come to mind if I were to do so:
 
-* Save settings in user defaults so they persist between launches.
 * Do the image operations on a background thread and be able to cancel.
 * Figure out if there's a way to make this work for Excel too.
 

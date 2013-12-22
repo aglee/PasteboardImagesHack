@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		730FC2701864ABE200FA4E28 /* PHImageUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 730FC26F1864ABE200FA4E28 /* PHImageUtilities.m */; };
 		730FC2731864BB4700FA4E28 /* Help.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 730FC2711864BB4700FA4E28 /* Help.rtf */; };
+		7332B3A71866903200DA201B /* PHPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 7332B3A61866903200DA201B /* PHPrefs.m */; };
 		73854B47185CF97700D79580 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73854B46185CF97700D79580 /* Cocoa.framework */; };
 		73854B51185CF97700D79580 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73854B4F185CF97700D79580 /* InfoPlist.strings */; };
 		73854B53185CF97700D79580 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73854B52185CF97700D79580 /* main.m */; };
@@ -39,6 +40,8 @@
 		730FC26E1864ABE200FA4E28 /* PHImageUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHImageUtilities.h; sourceTree = "<group>"; };
 		730FC26F1864ABE200FA4E28 /* PHImageUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHImageUtilities.m; sourceTree = "<group>"; };
 		730FC2721864BB4700FA4E28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Help.rtf; sourceTree = "<group>"; };
+		7332B3A51866903200DA201B /* PHPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHPrefs.h; sourceTree = "<group>"; };
+		7332B3A61866903200DA201B /* PHPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHPrefs.m; sourceTree = "<group>"; };
 		736DFE6D18635D7000643DBA /* PHError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHError.h; sourceTree = "<group>"; };
 		73854B43185CF97700D79580 /* PasteboardImagesHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasteboardImagesHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73854B46185CF97700D79580 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -132,6 +135,8 @@
 			children = (
 				73854B58185CF97700D79580 /* PHAppDelegate.h */,
 				73854B59185CF97700D79580 /* PHAppDelegate.m */,
+				7332B3A51866903200DA201B /* PHPrefs.h */,
+				7332B3A61866903200DA201B /* PHPrefs.m */,
 				736DFE6D18635D7000643DBA /* PHError.h */,
 				730FC26E1864ABE200FA4E28 /* PHImageUtilities.h */,
 				730FC26F1864ABE200FA4E28 /* PHImageUtilities.m */,
@@ -289,6 +294,7 @@
 				73854B7F185CFCE000D79580 /* PHWindowController.m in Sources */,
 				73854B53185CF97700D79580 /* main.m in Sources */,
 				73854B5A185CF97700D79580 /* PHAppDelegate.m in Sources */,
+				7332B3A71866903200DA201B /* PHPrefs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

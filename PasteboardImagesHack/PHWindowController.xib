@@ -130,7 +130,7 @@
 							</object>
 							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 							<bool key="NSControlAutosetMaxLayoutWidth">YES</bool>
-							<double key="NSPreferredMaxLayoutWidth">334</double>
+							<double key="NSPreferredMaxLayoutWidth">382</double>
 							<int key="NSTextFieldAlignmentRectInsetsVersion">1</int>
 						</object>
 						<object class="NSBox" id="527460846">
@@ -246,8 +246,8 @@
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTextFieldCell" key="NSCell" id="383880574">
 												<int key="NSCellFlags">-1804599231</int>
-												<int key="NSCellFlags2">1346372608</int>
-												<string key="NSContents">120</string>
+												<int key="NSCellFlags2">272630784</int>
+												<string key="NSContents"/>
 												<reference key="NSSupport" ref="670142869"/>
 												<string key="NSCellIdentifier">_NS:9</string>
 												<reference key="NSControlView" ref="590157172"/>
@@ -282,8 +282,8 @@
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSTextFieldCell" key="NSCell" id="66205611">
 												<int key="NSCellFlags">-1804599231</int>
-												<int key="NSCellFlags2">1346372608</int>
-												<string key="NSContents">160</string>
+												<int key="NSCellFlags2">272630784</int>
+												<string key="NSContents"/>
 												<reference key="NSSupport" ref="670142869"/>
 												<string key="NSCellIdentifier">_NS:9</string>
 												<reference key="NSControlView" ref="492974241"/>
@@ -308,7 +308,7 @@
 											<int key="NSNumCols">1</int>
 											<array class="NSMutableArray" key="NSCells">
 												<object class="NSButtonCell" id="862349041">
-													<int key="NSCellFlags">67108864</int>
+													<int key="NSCellFlags">-2080374784</int>
 													<int key="NSCellFlags2">0</int>
 													<string key="NSContents">row</string>
 													<reference key="NSSupport" ref="670142869"/>
@@ -324,7 +324,7 @@
 													<int key="NSPeriodicInterval">25</int>
 												</object>
 												<object class="NSButtonCell" id="440667979">
-													<int key="NSCellFlags">-2080374784</int>
+													<int key="NSCellFlags">67108864</int>
 													<int key="NSCellFlags2">0</int>
 													<string key="NSContents">column</string>
 													<reference key="NSSupport" ref="670142869"/>
@@ -464,7 +464,7 @@ y7bMNcy1zTXNtc42zrbPN8+40DnQutE80b7SP9LB00TTxtRJ1MvVTtXR1lXW2Ndc1+DYZNjo2WzZ8dp2
 											<string key="NSReuseIdentifierKey">_NS:9</string>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSButtonCell" key="NSCell" id="841026052">
-												<int key="NSCellFlags">-2080374784</int>
+												<int key="NSCellFlags">67108864</int>
 												<int key="NSCellFlags2">268435456</int>
 												<string type="base64-UTF8" key="NSContents">ICAgICAgA</string>
 												<reference key="NSSupport" ref="670142869"/>
@@ -623,6 +623,7 @@ y7bMNcy1zTXNtc42zrbPN8+40DnQutE80b7SP9LB00TTxtRJ1MvVTtXR1lXW2Ndc1+DYZNjo2WzZ8dp2
 							<string key="NSFrame">{{404, 13}, {74, 32}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="853001623">
@@ -833,6 +834,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 							<string key="NSFrame">{{230, 13}, {155, 32}}</string>
 							<reference key="NSSuperview" ref="884058365"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSButtonCell" key="NSCell" id="304524048">
@@ -887,7 +889,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 										<object class="NSTextView" id="794866152">
 											<reference key="NSNextResponder" ref="1073055736"/>
 											<int key="NSvFlags">2322</int>
-											<string key="NSFrameSize">{342, 241}</string>
+											<string key="NSFrameSize">{342, 226}</string>
 											<reference key="NSSuperview" ref="1073055736"/>
 											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="431105474"/>
@@ -934,7 +936,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 											<nil key="NSDelegate"/>
 										</object>
 									</array>
-									<string key="NSFrame">{{1, 1}, {342, 241}}</string>
+									<string key="NSFrame">{{1, 1}, {342, 226}}</string>
 									<reference key="NSSuperview" ref="825754385"/>
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="794866152"/>
@@ -967,7 +969,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 								<object class="NSScroller" id="431105474">
 									<reference key="NSNextResponder" ref="825754385"/>
 									<int key="NSvFlags">256</int>
-									<string key="NSFrame">{{343, 1}, {15, 241}}</string>
+									<string key="NSFrame">{{343, 1}, {15, 226}}</string>
 									<reference key="NSSuperview" ref="825754385"/>
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="402657176"/>
@@ -980,8 +982,8 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 								</object>
 								<object class="NSScroller" id="802797603">
 									<reference key="NSNextResponder" ref="825754385"/>
-									<int key="NSvFlags">-2147483392</int>
-									<string key="NSFrame">{{-100, -100}, {87, 18}}</string>
+									<int key="NSvFlags">256</int>
+									<string key="NSFrame">{{1, 227}, {342, 15}}</string>
 									<reference key="NSSuperview" ref="825754385"/>
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="1073055736"/>
@@ -999,7 +1001,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="802797603"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
-							<int key="NSsFlags">133138</int>
+							<int key="NSsFlags">133170</int>
 							<reference key="NSVScroller" ref="431105474"/>
 							<reference key="NSHScroller" ref="802797603"/>
 							<reference key="NSContentView" ref="1073055736"/>
@@ -1128,31 +1130,15 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">enabled: shouldScaleImages</string>
+						<string key="label">value: values.PHUserDefaultsImageBoundingWidth</string>
 						<reference key="source" ref="492974241"/>
-						<reference key="destination" ref="1001"/>
+						<reference key="destination" ref="767971749"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="492974241"/>
-							<reference key="NSDestination" ref="1001"/>
-							<string key="NSLabel">enabled: shouldScaleImages</string>
-							<string key="NSBinding">enabled</string>
-							<string key="NSKeyPath">shouldScaleImages</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">202</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: imageBoundingWidth</string>
-						<reference key="source" ref="492974241"/>
-						<reference key="destination" ref="1001"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="492974241"/>
-							<reference key="NSDestination" ref="1001"/>
-							<string key="NSLabel">value: imageBoundingWidth</string>
+							<reference key="NSDestination" ref="767971749"/>
+							<string key="NSLabel">value: values.PHUserDefaultsImageBoundingWidth</string>
 							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">imageBoundingWidth</string>
+							<string key="NSKeyPath">values.PHUserDefaultsImageBoundingWidth</string>
 							<object class="NSDictionary" key="NSOptions">
 								<string key="NS.key.0">NSContinuouslyUpdatesValue</string>
 								<boolean value="YES" key="NS.object.0"/>
@@ -1160,35 +1146,51 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">100</int>
+					<int key="connectionID">286</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">enabled: shouldScaleImages</string>
-						<reference key="source" ref="590157172"/>
-						<reference key="destination" ref="1001"/>
+						<string key="label">enabled: values.PHUserDefaultsShouldScaleImages</string>
+						<reference key="source" ref="492974241"/>
+						<reference key="destination" ref="767971749"/>
 						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="590157172"/>
-							<reference key="NSDestination" ref="1001"/>
-							<string key="NSLabel">enabled: shouldScaleImages</string>
+							<reference key="NSSource" ref="492974241"/>
+							<reference key="NSDestination" ref="767971749"/>
+							<string key="NSLabel">enabled: values.PHUserDefaultsShouldScaleImages</string>
 							<string key="NSBinding">enabled</string>
-							<string key="NSKeyPath">shouldScaleImages</string>
+							<string key="NSKeyPath">values.PHUserDefaultsShouldScaleImages</string>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">204</int>
+					<int key="connectionID">287</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: imageBoundingHeight</string>
+						<string key="label">enabled: values.PHUserDefaultsShouldScaleImages</string>
 						<reference key="source" ref="590157172"/>
-						<reference key="destination" ref="1001"/>
+						<reference key="destination" ref="767971749"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="590157172"/>
-							<reference key="NSDestination" ref="1001"/>
-							<string key="NSLabel">value: imageBoundingHeight</string>
+							<reference key="NSDestination" ref="767971749"/>
+							<string key="NSLabel">enabled: values.PHUserDefaultsShouldScaleImages</string>
+							<string key="NSBinding">enabled</string>
+							<string key="NSKeyPath">values.PHUserDefaultsShouldScaleImages</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">288</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.PHUserDefaultsImageBoundingHeight</string>
+						<reference key="source" ref="590157172"/>
+						<reference key="destination" ref="767971749"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="590157172"/>
+							<reference key="NSDestination" ref="767971749"/>
+							<string key="NSLabel">value: values.PHUserDefaultsImageBoundingHeight</string>
 							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">imageBoundingHeight</string>
+							<string key="NSKeyPath">values.PHUserDefaultsImageBoundingHeight</string>
 							<object class="NSDictionary" key="NSOptions">
 								<string key="NS.key.0">NSContinuouslyUpdatesValue</string>
 								<boolean value="YES" key="NS.object.0"/>
@@ -1196,39 +1198,39 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">101</int>
+					<int key="connectionID">289</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">selectedTag: spreadsheetFillDirection</string>
+						<string key="label">selectedTag: values.PHUserDefaultsSpreadsheetFillDirection</string>
 						<reference key="source" ref="534819358"/>
-						<reference key="destination" ref="1001"/>
+						<reference key="destination" ref="767971749"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="534819358"/>
-							<reference key="NSDestination" ref="1001"/>
-							<string key="NSLabel">selectedTag: spreadsheetFillDirection</string>
+							<reference key="NSDestination" ref="767971749"/>
+							<string key="NSLabel">selectedTag: values.PHUserDefaultsSpreadsheetFillDirection</string>
 							<string key="NSBinding">selectedTag</string>
-							<string key="NSKeyPath">spreadsheetFillDirection</string>
+							<string key="NSKeyPath">values.PHUserDefaultsSpreadsheetFillDirection</string>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">97</int>
+					<int key="connectionID">290</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: shouldScaleImages</string>
+						<string key="label">value: values.PHUserDefaultsShouldScaleImages</string>
 						<reference key="source" ref="143595461"/>
-						<reference key="destination" ref="1001"/>
+						<reference key="destination" ref="767971749"/>
 						<object class="NSNibBindingConnector" key="connector">
 							<reference key="NSSource" ref="143595461"/>
-							<reference key="NSDestination" ref="1001"/>
-							<string key="NSLabel">value: shouldScaleImages</string>
+							<reference key="NSDestination" ref="767971749"/>
+							<string key="NSLabel">value: values.PHUserDefaultsShouldScaleImages</string>
 							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">shouldScaleImages</string>
+							<string key="NSKeyPath">values.PHUserDefaultsShouldScaleImages</string>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">201</int>
+					<int key="connectionID">285</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -1425,9 +1427,9 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 							<reference ref="546092707"/>
 							<reference ref="809703804"/>
 							<reference ref="590157172"/>
-							<reference ref="492974241"/>
 							<reference ref="534819358"/>
 							<reference ref="143595461"/>
+							<reference ref="492974241"/>
 						</array>
 						<reference key="parent" ref="1006"/>
 					</object>
@@ -1728,7 +1730,7 @@ AAEAAQAAAT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAIAAQABAAAAAA</bytes>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">249</int>
+			<int key="maxID">290</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
