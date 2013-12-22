@@ -89,10 +89,6 @@
 	// Tell the window to expect things to be dragged into it.
 	[self.window registerForDraggedTypes:@[ (NSString *)kUTTypeImage,
 											(NSString *)kUTTypeFileURL ]];
-
-	// Bring both windows front.
-	[self.resultsWindow makeKeyAndOrderFront:nil]; //[agl]
-	[self.window makeKeyAndOrderFront:nil];
 }
 
 #pragma mark - NSDraggingDestination methods
